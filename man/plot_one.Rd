@@ -7,9 +7,9 @@
 plot_one(newinput1, newinput2)
 }
 \arguments{
-\item{expinput}{experimental design input}
+\item{newinput1}{experimental design input}
 
-\item{proteininput}{protein groups input}
+\item{newinput2}{protein groups input}
 }
 \description{
 This function loads files and plot PCA as output

@@ -2,8 +2,8 @@
 #'
 #' This function loads files and plot PCA as output 
 #' @export
-#' @param expinput experimental design input
-#' @param proteininput protein groups input
+#' @param newinput1 experimental design input
+#' @param newinput2 protein groups input
 plot_one<-function(newinput1, newinput2){
 
 ExperimentalDesign<-newinput1
