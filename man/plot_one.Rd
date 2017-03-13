@@ -4,7 +4,7 @@
 \alias{plot_one}
 \title{plot PCA}
 \usage{
-plot_one(expinput, proteininput)
+plot_one(newinput1, newinput2)
 }
 \arguments{
 \item{expinput}{experimental design input}

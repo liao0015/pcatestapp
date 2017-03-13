@@ -4,10 +4,10 @@
 #' @export
 #' @param expinput experimental design input
 #' @param proteininput protein groups input
-plot_one<-function(expinput, proteininput){
+plot_one<-function(newinput1, newinput2){
 
-ExperimentalDesign<-expinput
-proteinGroups<-proteininput
+ExperimentalDesign<-newinput1
+proteinGroups<-newinput2
 # read in experimental desgin
 #ExperimentalDesign<-read.delim("inst/extdata/Experimental_Design.txt",header=TRUE)
 #sort according to the file names
