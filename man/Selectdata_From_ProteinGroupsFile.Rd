@@ -9,8 +9,6 @@ Selectdata_From_ProteinGroupsFile(proteingroups,
 }
 \arguments{
 \item{proteingroups}{obtained from file input}
-
-\item{expression_data_tobe_selected}{default set to "LFQ_intensity"}
 }
 \description{
 Select data from protein groups

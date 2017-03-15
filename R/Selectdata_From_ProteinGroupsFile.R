@@ -1,7 +1,6 @@
 #' Select data from protein groups
 #' @export
 #' @param proteingroups obtained from file input
-#' @param expression_data_tobe_selected default set to "LFQ_intensity"
 
 Selectdata_From_ProteinGroupsFile<-function(proteingroups,expression_data_tobe_selected = "LFQ_intensity"){
   
