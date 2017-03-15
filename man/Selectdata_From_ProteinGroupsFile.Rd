@@ -8,7 +8,7 @@ Selectdata_From_ProteinGroupsFile(proteinfileinput,
   expression_data_tobe_selected = "LFQ_intensity")
 }
 \arguments{
-\item{proteinGroups}{obtained from file input}
+\item{proteinfileinput}{obtained from file input}
 }
 \description{
 Select data from protein groups
