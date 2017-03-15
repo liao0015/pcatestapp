@@ -4,11 +4,11 @@
 \alias{Selectdata_From_ProteinGroupsFile}
 \title{Select data from protein groups}
 \usage{
-Selectdata_From_ProteinGroupsFile(proteingroups,
+Selectdata_From_ProteinGroupsFile(proteinGroups,
   expression_data_tobe_selected = "LFQ_intensity")
 }
 \arguments{
-\item{proteingroups}{obtained from file input}
+\item{proteinGroups}{obtained from file input}
 }
 \description{
 Select data from protein groups
