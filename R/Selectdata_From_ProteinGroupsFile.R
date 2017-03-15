@@ -2,8 +2,8 @@
 #' @export
 #' @param proteinGroups obtained from file input
 
-Selectdata_From_ProteinGroupsFile<-function(proteinGroups,expression_data_tobe_selected = "LFQ_intensity"){
-  
+Selectdata_From_ProteinGroupsFile<-function(proteinfileinput,expression_data_tobe_selected = "LFQ_intensity"){
+  proteinGroups<-proteinfileinput
   #do filtering, to remove rows with contaminant/revers/identified by id
   proteinGroups_Reversed<-proteinGroups[proteinGroups$Reverse=="+",]
   proteinGroups_Contaminant<-proteinGroups[proteinGroups$Contaminant=="+",]
