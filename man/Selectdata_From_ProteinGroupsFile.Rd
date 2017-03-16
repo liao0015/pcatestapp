@@ -4,7 +4,8 @@
 \alias{Selectdata_From_ProteinGroupsFile}
 \title{Select data from protein groups}
 \usage{
-Selectdata_From_ProteinGroupsFile(proteinfileinput)
+Selectdata_From_ProteinGroupsFile(proteinfileinput,
+  expression_data_tobe_selected = "LFQ_intensity")
 }
 \arguments{
 \item{proteinfileinput}{obtained from file input}
