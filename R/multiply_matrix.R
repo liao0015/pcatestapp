@@ -3,7 +3,7 @@
 #' @export
 #' @param b a number, any number
 
-MultiplyMatrix<-function(b){
+multiply_matrix<-function(b){
 	a<-c(1,2,3,4)
 	c<-a*b
 	return (c)
