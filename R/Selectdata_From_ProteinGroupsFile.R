@@ -1,10 +1,11 @@
 #' Select data from protein groups
 #' @export
 #' @param proteinfileinput obtained from file input
-#' @param expression_data_tobe_selected set a default selection scale
+#' @param input2 set a default selection scale
 
-Selectdata_From_ProteinGroupsFile<-function(proteinfileinput,expression_data_tobe_selected){
-  proteinGroups<-proteinfileinput
+Selectdata_From_ProteinGroupsFile <- function(proteinfileinput, input2){
+  proteinGroups <- proteinfileinput
+  expression_data_tobe_selected <- input2
   #expression_data_tobe_selected = "LFQ_intensity"
   #do filtering, to remove rows with contaminant/revers/identified by id
   proteinGroups_Reversed<-proteinGroups[proteinGroups$Reverse=="+",]
