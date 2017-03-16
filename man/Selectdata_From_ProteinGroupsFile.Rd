@@ -5,10 +5,12 @@
 \title{Select data from protein groups}
 \usage{
 Selectdata_From_ProteinGroupsFile(proteinfileinput,
-  expression_data_tobe_selected = "LFQ_intensity")
+  expression_data_tobe_selected)
 }
 \arguments{
 \item{proteinfileinput}{obtained from file input}
+
+\item{expression_data_tobe_selected}{set a default selection scale}
 }
 \description{
 Select data from protein groups
