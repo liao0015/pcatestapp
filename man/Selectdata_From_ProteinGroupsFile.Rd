@@ -4,12 +4,10 @@
 \alias{Selectdata_From_ProteinGroupsFile}
 \title{Select data from protein groups}
 \usage{
-Selectdata_From_ProteinGroupsFile(proteinfileinput, input2)
+Selectdata_From_ProteinGroupsFile(proteinfileinput)
 }
 \arguments{
 \item{proteinfileinput}{obtained from file input}
-
-\item{input2}{set a default selection scale}
 }
 \description{
 Select data from protein groups
